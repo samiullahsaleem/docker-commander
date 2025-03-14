@@ -16,7 +16,7 @@ Make sure you have the following installed on your machine:
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/docker-commander.git
+git clone https://github.com/samiullahsaleeem/docker-commander.git
 cd docker-commander
 npm install
 # or
@@ -99,7 +99,7 @@ This project was inspired by the need for a comprehensive and interactive learni
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or feedback, feel free to reach out to us at [your-email@example.com](mailto:samiullah1701734@example.com).
 
 ---
 
