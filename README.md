@@ -2,6 +2,9 @@
 
 Welcome to Docker Commander! This project is a comprehensive learning tool for Docker, providing an interactive terminal and visual guides to help you understand and master Docker commands and workflows.
 
+![image](https://github.com/user-attachments/assets/7022270b-8d41-4f3d-a73a-48290ab3ca4b)
+
+
 ## Getting Started
 
 ### Prerequisites
