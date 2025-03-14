@@ -24,14 +24,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Check Docker Version",
         description: "Use the terminal to check your Docker version",
-        hint: "Try using the 'docker --version' command",
+        hint: "Try using the &apos;docker --version&apos; command",
         command: "docker --version",
         completed: false,
       },
       {
         title: "View Docker Info",
         description: "Display system-wide Docker information",
-        hint: "The 'docker info' command shows detailed information about your Docker installation",
+        hint: "The &apos;docker info&apos; command shows detailed information about your Docker installation",
         command: "docker info",
         completed: false,
       },
@@ -41,14 +41,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Run Hello World",
         description: "Run the hello-world container to test your Docker installation",
-        hint: "Use 'docker run hello-world' to run the container",
+        hint: "Use &apos;docker run hello-world&apos; to run the container",
         command: "docker run hello-world",
         completed: false,
       },
       {
         title: "List Docker Components",
         description: "Check Docker system information to see its components",
-        hint: "Use 'docker info' to see system-wide information",
+        hint: "Use &apos;docker info&apos; to see system-wide information",
         command: "docker info",
         completed: false,
       },
@@ -58,14 +58,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Verify Installation",
         description: "Verify Docker is properly installed",
-        hint: "Use 'docker --version' to check the installed version",
+        hint: "Use &apos;docker --version&apos; to check the installed version",
         command: "docker --version",
         completed: false,
       },
       {
         title: "Check Docker Compose",
         description: "Verify Docker Compose is installed",
-        hint: "Use 'docker-compose --version' to check the installed version",
+        hint: "Use &apos;docker-compose --version&apos; to check the installed version",
         command: "docker-compose --version",
         completed: false,
       },
@@ -75,14 +75,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "List Docker Commands",
         description: "See available Docker commands",
-        hint: "Type 'help' to see available commands",
+        hint: "Type &apos;help&apos; to see available commands",
         command: "help",
         completed: false,
       },
       {
         title: "Run Hello World Container",
         description: "Run the hello-world container",
-        hint: "Use 'docker run hello-world' to run the container",
+        hint: "Use &apos;docker run hello-world&apos; to run the container",
         command: "docker run hello-world",
         completed: false,
       },
@@ -94,14 +94,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Run a Container",
         description: "Run a basic container",
-        hint: "Use 'docker run hello-world' to run a container",
+        hint: "Use &apos;docker run hello-world&apos; to run a container",
         command: "docker run hello-world",
         completed: false,
       },
       {
         title: "Run Container in Background",
         description: "Run a container in detached mode",
-        hint: "Use 'docker run -d nginx' to run a container in the background",
+        hint: "Use &apos;docker run -d nginx&apos; to run a container in the background",
         command: "docker run -d",
         completed: false,
       },
@@ -111,14 +111,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "List Running Containers",
         description: "List all running Docker containers",
-        hint: "The 'docker ps' command shows running containers",
+        hint: "The &apos;docker ps&apos; command shows running containers",
         command: "docker ps",
         completed: false,
       },
       {
         title: "List All Containers",
         description: "List all containers, including stopped ones",
-        hint: "Use 'docker ps -a' to see all containers",
+        hint: "Use &apos;docker ps -a&apos; to see all containers",
         command: "docker ps -a",
         completed: false,
       },
@@ -128,14 +128,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Run Container with Port Mapping",
         description: "Run a container and map a port",
-        hint: "Use 'docker run -p 8080:80 nginx' to map port 8080 to container port 80",
+        hint: "Use &apos;docker run -p 8080:80 nginx&apos; to map port 8080 to container port 80",
         command: "docker run -p",
         completed: false,
       },
       {
         title: "List Networks",
         description: "List Docker networks",
-        hint: "Use 'docker network ls' to list all networks",
+        hint: "Use &apos;docker network ls&apos; to list all networks",
         command: "docker network ls",
         completed: false,
       },
@@ -145,14 +145,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "List Volumes",
         description: "List Docker volumes",
-        hint: "Use 'docker volume ls' to list all volumes",
+        hint: "Use &apos;docker volume ls&apos; to list all volumes",
         command: "docker volume ls",
         completed: false,
       },
       {
         title: "Run Container with Named Volume",
         description: "Run a container with a named volume",
-        hint: "Use 'docker run -v my-volume:/path nginx' to mount a volume",
+        hint: "Use &apos;docker run -v my-volume:/path nginx&apos; to mount a volume",
         command: "docker run -v",
         completed: false,
       },
@@ -164,14 +164,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "List Docker Images",
         description: "List all Docker images on your system",
-        hint: "The 'docker images' command shows all available images",
+        hint: "The &apos;docker images&apos; command shows all available images",
         command: "docker images",
         completed: false,
       },
       {
         title: "Pull an Image",
         description: "Download a Docker image from Docker Hub",
-        hint: "Use 'docker pull ubuntu' to download an image",
+        hint: "Use &apos;docker pull ubuntu&apos; to download an image",
         command: "docker pull",
         completed: false,
       },
@@ -181,14 +181,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Build an Image",
         description: "Build an image from a Dockerfile",
-        hint: "Use 'docker build -t myimage .' to build an image",
+        hint: "Use &apos;docker build -t myimage .&apos; to build an image",
         command: "docker build",
         completed: false,
       },
       {
         title: "Tag an Image",
         description: "Tag an image with a new name",
-        hint: "Use 'docker tag nginx mynginx' to create a new tag",
+        hint: "Use &apos;docker tag nginx mynginx&apos; to create a new tag",
         command: "docker tag",
         completed: false,
       },
@@ -198,14 +198,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Remove an Image",
         description: "Remove a Docker image from your system",
-        hint: "Use 'docker rmi nginx' to remove an image",
+        hint: "Use &apos;docker rmi nginx&apos; to remove an image",
         command: "docker rmi",
         completed: false,
       },
       {
         title: "List Image History",
         description: "View the history of an image",
-        hint: "Use 'docker history nginx' to see image layers",
+        hint: "Use &apos;docker history nginx&apos; to see image layers",
         command: "docker history",
         completed: false,
       },
@@ -215,14 +215,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Check Image Size",
         description: "Check the size of Docker images",
-        hint: "Use 'docker images' to see image sizes",
+        hint: "Use &apos;docker images&apos; to see image sizes",
         command: "docker images",
         completed: false,
       },
       {
         title: "System Disk Usage",
         description: "Check Docker disk usage",
-        hint: "Use 'docker system df' to see disk usage",
+        hint: "Use &apos;docker system df&apos; to see disk usage",
         command: "docker system df",
         completed: false,
       },
@@ -234,14 +234,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "Check Compose Version",
         description: "Check your Docker Compose version",
-        hint: "Use 'docker-compose --version' to see the installed version",
+        hint: "Use &apos;docker-compose --version&apos; to see the installed version",
         command: "docker-compose --version",
         completed: false,
       },
       {
         title: "Start Compose Services",
         description: "Start services defined in a docker-compose.yml file",
-        hint: "Use 'docker-compose up' to start all services",
+        hint: "Use &apos;docker-compose up&apos; to start all services",
         command: "docker-compose up",
         completed: false,
       },
@@ -251,14 +251,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "List Compose Services",
         description: "List services started with Docker Compose",
-        hint: "Use 'docker-compose ps' to list services",
+        hint: "Use &apos;docker-compose ps&apos; to list services",
         command: "docker-compose ps",
         completed: false,
       },
       {
         title: "Stop Compose Services",
         description: "Stop and remove services started with docker-compose",
-        hint: "Use 'docker-compose down' to stop and remove containers",
+        hint: "Use &apos;docker-compose down&apos; to stop and remove containers",
         command: "docker-compose down",
         completed: false,
       },
@@ -268,14 +268,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "View Compose Logs",
         description: "View logs from Docker Compose services",
-        hint: "Use 'docker-compose logs' to see service logs",
+        hint: "Use &apos;docker-compose logs&apos; to see service logs",
         command: "docker-compose logs",
         completed: false,
       },
       {
         title: "Restart Compose Services",
         description: "Restart services defined in docker-compose.yml",
-        hint: "Use 'docker-compose restart' to restart services",
+        hint: "Use &apos;docker-compose restart&apos; to restart services",
         command: "docker-compose restart",
         completed: false,
       },
@@ -285,14 +285,14 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
       {
         title: "List Networks",
         description: "List Docker networks",
-        hint: "Use 'docker network ls' to list all networks",
+        hint: "Use &apos;docker network ls&apos; to list all networks",
         command: "docker network ls",
         completed: false,
       },
       {
         title: "Inspect Network",
         description: "Inspect a Docker network",
-        hint: "Use 'docker network inspect bridge' to inspect the default bridge network",
+        hint: "Use &apos;docker network inspect bridge&apos; to inspect the default bridge network",
         command: "docker network inspect",
         completed: false,
       },
@@ -430,7 +430,7 @@ export function Challenges({ progress, onChallengeCompleted, currentModule }: Ch
             <Award className="h-5 w-5" />
             <p className="font-medium">Challenge completed!</p>
           </div>
-          <p className="text-sm">Great job! You've completed the challenge.</p>
+          <p className="text-sm">Great job! You&apos;ve completed the challenge.</p>
         </div>
       )}
 

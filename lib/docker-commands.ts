@@ -52,7 +52,7 @@ export const dockerCommands = [
   },
   {
     command: "docker run -p",
-    description: "Publish container's port to the host",
+    description: "Publish container&apos;s port to the host",
     example: "docker run -p 8080:80 nginx",
     category: "containers",
   },

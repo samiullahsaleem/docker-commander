@@ -2,7 +2,7 @@ export const commandExplanations = [
   {
     command: "docker --version",
     explanation:
-      "This command displays the installed Docker version. It's useful to verify that Docker is properly installed and to check which version you're running.",
+      "This command displays the installed Docker version. It&apos;s useful to verify that Docker is properly installed and to check which version you&apos;re running.",
     examples: ["docker --version", "docker -v"],
   },
   {
@@ -61,13 +61,13 @@ export const commandExplanations = [
   {
     command: "docker-compose",
     explanation:
-      "A tool for defining and running multi-container Docker applications. With a YAML file, you configure your application's services and run them with a single command.",
+      "A tool for defining and running multi-container Docker applications. With a YAML file, you configure your application&apos;s services and run them with a single command.",
     examples: ["docker-compose up", "docker-compose down", "docker-compose ps"],
   },
   {
     command: "docker-compose --version",
     explanation:
-      "Shows the installed Docker Compose version. This helps verify that Docker Compose is properly installed and check which version you're running.",
+      "Shows the installed Docker Compose version. This helps verify that Docker Compose is properly installed and check which version you&apos;re running.",
     examples: ["docker-compose --version", "docker-compose -v"],
   },
   {
@@ -79,7 +79,7 @@ export const commandExplanations = [
   {
     command: "docker-compose down",
     explanation:
-      "Stops and removes containers, networks, volumes, and images created by 'up'. This command cleans up all resources created by docker-compose up.",
+      "Stops and removes containers, networks, volumes, and images created by &apos;up&apos;. This command cleans up all resources created by docker-compose up.",
     examples: ["docker-compose down", "docker-compose down --volumes", "docker-compose down --rmi all"],
   },
   {

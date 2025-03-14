@@ -200,7 +200,7 @@ export function DockerVisualizer({ dockerState }: DockerVisualizerProps) {
               <div className="flex h-full flex-col items-center justify-center text-slate-400">
                 <Layers className="mx-auto mb-2 h-12 w-12 text-slate-500" />
                 <p>No images available</p>
-                <p className="text-sm">Use 'docker pull' to get images</p>
+                <p className="text-sm">Use &apos; docker pull &apos; to get images</p>
               </div>
             )}
           </div>

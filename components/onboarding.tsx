@@ -32,7 +32,7 @@ export function Onboarding({ onGetStarted }: OnboardingProps) {
     {
       title: "How This Tool Works",
       description:
-        "You'll learn through a combination of guided lessons, practical challenges, and a real Docker terminal simulator. Complete challenges to unlock new modules and track your progress as you become a Docker expert!",
+        "You&apos;ll learn through a combination of guided lessons, practical challenges, and a real Docker terminal simulator. Complete challenges to unlock new modules and track your progress as you become a Docker expert!",
       image: <Server className="h-24 w-24 text-blue-400" />,
     },
   ]

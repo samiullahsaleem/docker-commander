@@ -25,7 +25,7 @@ export function LearningPath({ progress, onModuleChange }: LearningPathProps) {
       lessons: [
         {
           title: "Introduction to Docker",
-          description: "Learn what Docker is and why it's useful for developers and operations teams.",
+          description: "Learn what Docker is and why it&apos;s useful for developers and operations teams.",
           challengeId: 0,
         },
         {

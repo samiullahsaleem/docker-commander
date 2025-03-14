@@ -18,7 +18,7 @@ export function Terminal({ onCommandExecuted, initialDockerState }: TerminalProp
   const [commandHistory, setCommandHistory] = useState<Array<{ command: string; output: string; success?: boolean }>>([
     {
       command: "",
-      output: "Welcome to Docker Command Terminal! Type 'help' to see available commands.",
+      output: "Welcome to Docker Command Terminal! Type &apos;help&apos; to see available commands.",
       success: undefined,
     },
   ])
@@ -353,7 +353,7 @@ Server:
         (img) => `${img.repository}:${img.tag}` === imageName || img.repository === imageName,
       )
 
-      // If image doesn't exist, automatically pull common images instead of showing error
+      // If image doesn&apos;t exist, automatically pull common images instead of showing error
       if (!imageExists) {
         if (
           ["hello-world", "nginx", "ubuntu", "node", "python", "redis", "postgres", "mysql"].includes(
@@ -371,7 +371,7 @@ Server:
           setAvailableImages((prevImages) => [...prevImages, newImage])
         } else {
           return {
-            output: `Unable to find image '${imageName}' locally\nPulling from docker hub...\nError: pull access denied for ${imageName}, repository does not exist or may require 'docker login'`,
+            output: `Unable to find image &apos;${imageName}&apos; locally\nPulling from docker hub...\nError: pull access denied for ${imageName}, repository does not exist or may require &apos;docker login&apos;`,
             success: false,
           }
         }
@@ -415,7 +415,7 @@ Server:
       const newContainer = {
         id: containerId,
         image: imageName,
-        command: imageName === "nginx" ? "nginx -g 'daemon off;'" : "/hello",
+        command: imageName === "nginx" ? "nginx -g &apos;daemon off;&apos;" : "/hello",
         created: "Just now",
         status: "running",
         ports: ports,
@@ -748,13 +748,13 @@ app_web_1      docker-entrypoint.sh npm start   Up      0.0.0.0:3000->3000/tcp
     const knownCommand = dockerCommands.find((c) => cmd.startsWith(c.command))
     if (knownCommand) {
       return {
-        output: `Command '${cmd}' recognized but not fully implemented in this simulator.\n\nUsage: ${knownCommand.example}\n\n${knownCommand.description}`,
+        output: `Command &apos;${cmd}&apos; recognized but not fully implemented in this simulator.\n\nUsage: ${knownCommand.example}\n\n${knownCommand.description}`,
         success: true,
       }
     }
 
     return {
-      output: `Command not recognized: '${cmd}'\nType 'help' to see available commands.`,
+      output: `Command not recognized: &apos;${cmd}&apos;\nType &apos;help&apos; to see available commands.`,
       success: false,
     }
   }
